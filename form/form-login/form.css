@@ -1,0 +1,77 @@
+* {
+    margin:1;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(./Bistro1.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container {
+    margin:0 auto;
+    width: 90%;
+    max-width: 450px;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color:white;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+form {
+    width: 350px;
+    margin:50px auto;
+    border-radius: 10px;
+    border:none;
+}
+
+input,textarea {
+    width: 100%;
+    outline:none;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 7px;
+}
+
+input:focus,
+textarea:focus {
+    box-shadow: 5px 5px 10px black;
+}
+
+
+textarea {
+    width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    max-height: 200px;
+    border: none;
+}
+
+.btn {
+    width:100%;
+    background-color: darkred;
+    color:white;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+@media screen and (max-width:320px){
+    .container {
+        width: 30%;
+    }
+    form{
+        width: 30%;
+    }
+}
+
